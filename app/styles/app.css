@@ -1,0 +1,23 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+h1 {
+  padding: 10px;
+}
+
+.list {
+  border: 1px solid #ddd;
+  height: 75vh;
+  overflow: auto;
+}
+
+.row {
+  height: 50px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}

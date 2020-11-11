@@ -1,5 +1,10 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="list">
+  <h1>vertical-collection issue</h1>
+  <VerticalCollection
+    @items={{this.model}}
+    @estimateHeight={{50}}
+    as |item|
+  >
+    <Row @item={{item}} />
+  </VerticalCollection>
+</div>
